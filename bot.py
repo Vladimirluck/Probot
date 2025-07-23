@@ -1,4 +1,4 @@
-
+from database.db import init_db
 from aiogram import Bot, Dispatcher, types
 from aiogram.utils import executor
 from config import BOT_TOKEN
